@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image:url(ciel.jpg);
+
+}
+
+.header-title{
+    margin-top: 100px;
+    color: aliceblue;
+    padding-top: 60px;
+}

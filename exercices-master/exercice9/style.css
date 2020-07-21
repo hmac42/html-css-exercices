@@ -1,0 +1,30 @@
+.article{
+    display: block;
+    position: relative;
+    top: 200px; left: 400px;
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    } 
+
+.details{
+    position: relative;
+    top: 180px; margin-block-start: 0em; left: 450px;
+    display: block;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    }
+
+.fix{
+    display: block;
+    margin-block-start: 0em;
+    position: fixed;
+    bottom: 0em; right: 0em;
+    display: block;
+    background-color: blue;
+    color: cornsilk;
+    width: 100px;
+    height: 50px;
+
+}

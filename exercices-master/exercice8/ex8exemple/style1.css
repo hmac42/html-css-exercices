@@ -1,0 +1,34 @@
+ul{
+    list-style-type: none;
+   
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.menu{
+   display: flex; 
+   
+
+}
+
+.sous-menu{
+    padding: 0;
+    
+}
+
+.sous-menu li{
+    height: 0;
+    transition-delay: 0;
+    transition: 10s;
+    
+    
+}
+.menu li:hover .sous-menu li{
+   height: 20px;
+   
+   
+}
+

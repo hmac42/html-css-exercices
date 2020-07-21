@@ -1,0 +1,77 @@
+label{
+    display:block;
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    position: relative;
+}
+
+#test1{
+    height: 100%;
+    width: 100%;
+
+}
+
+.couche1{
+    background-color:red ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border-radius: 25px;
+    transition:1s;
+}
+
+.switch{
+    height: 100%;
+    width: 50%;
+    background-color: honeydew;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    pointer-events: none;
+
+}
+
+#test1:checked ~ .couche1{
+    background-color: green;
+    transition: 1s;
+
+}
+#test1:checked ~ .switch{
+    transform: translateX(50px);
+    transition: 1s;
+}
+
+#test1 ~ .switch{
+    transform: translateX(0px);
+    transition: 1s;
+}
+
+span{
+    position: absolute;
+    color: white;
+    font-size: 1.3em;
+    top: 12px;
+    
+    
+    
+}
+
+.oui{
+    left: 8px;
+    
+}
+
+.non{
+    color:white;
+    left:52px;
+    
+
+}
+
+
+
